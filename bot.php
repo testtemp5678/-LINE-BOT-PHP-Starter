@@ -3,7 +3,7 @@
 strAccessToken = "9AGA9MeflMduimaBPT9QwL5SOeDTeDxlWgnCC89xUIvEGgoMr+VdbmzoQN827xhChQ/Yl5OxSAqgavX2QQpjYxKMwKbeSjyRfK1aMZf7Jj8b1x8uPPOptwP7SSWUWCJeUD6CMnkep3JWY06g5lI3JAdB04t89/1O/w1cDnyilFU=";
  
 content = file_get_contents('php://input');
-arrJson = json_decode($content, true);
+arrJson = json_decode(content, true);
  
 strUrl = "https://api.line.me/v2/bot/message/reply";
  
